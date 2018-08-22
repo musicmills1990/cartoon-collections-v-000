@@ -7,7 +7,7 @@ end
 
 def summon_captain_planet(array)
   array.collect do |name|
-    "#{name.split" ".first.upcase.join""}!"
+    "#{name.capitalize}!"
   end
 end
 

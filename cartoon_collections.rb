@@ -22,6 +22,6 @@ def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
 
   array.detect do |snack|
-    snack == cheese_types.split " "
+    snack == cheese_types.split[0] || cheese_types[1] || cheese_types[2]
   end
 end

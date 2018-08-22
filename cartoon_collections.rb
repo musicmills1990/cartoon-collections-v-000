@@ -23,5 +23,4 @@ def find_the_cheese(array)
   array.find do |snack|
     snack == cheese_types
   end
-return "nil"
 end
